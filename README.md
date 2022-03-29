@@ -29,7 +29,7 @@ The web app has not been deployed yet.
 • Opening the file to get the file and read
 • Delete Books
 
-![plot](.image-each-page/home-page.jpg)
+![Log-in](Image-each-page/Log-in.JPG)
 
 # Search Page
 
