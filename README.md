@@ -23,24 +23,30 @@ The web app has not been deployed yet.
 • Brief summary about the app
 • Even if you don’t have account you have access to do something
 
+![Log-in](Image-each-page/Log-in.JPG)
+
 # Home Page
 
 • Add Books using book’s title and image URL
 • Opening the file to get the file and read
 • Delete Books
 
-![Log-in](Image-each-page/Log-in.JPG)
+![Home-page](Image-each-page/home-page.JPG)
 
 # Search Page
 
 • Access the added book in the search bar
 • Search Books using book’s title
 
+![Search-page](Image-each-page/Search-page.JPG)
+
 # Fact Page
 
 • Get random serious facts by clicking a button
 • You have the access to see the facts even if you don’t have account
 • Log Out: It takes you the log-in page
+
+![Fact-page](Image-each-page/facts-page.JPG)
 
 # Upcoming Features
 
