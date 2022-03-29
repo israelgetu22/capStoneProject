@@ -20,17 +20,19 @@ function submitHandler(e) {
 
   let title = document.querySelector("#titlee");
   let imageURL = document.querySelector("#imgg");
-  let authorName = document.querySelector("author");
+  let author = document.querySelector("#author");
 
   let bodyObj = {
     title: title.value,
     imageURL: imageURL.value,
+    author: author.value,
   };
 
   createBook(bodyObj);
 
   title.value = "";
   imageURL.value = "";
+  author.value = "";
 }
 
 function createBookCard(book) {

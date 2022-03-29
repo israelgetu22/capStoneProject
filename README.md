@@ -9,11 +9,7 @@ BookShelves Web App created for the purpose of managing and storing books by usi
 - Java Script
 - JSON
 
-# How to locally run
-
-The web app has not been deployed yet.
-
-# Description for each pages
+# Description
 
 # Log-in Page
 
@@ -48,6 +44,8 @@ The web app has not been deployed yet.
 
 ![Fact-page](Image-each-page/facts-page.JPG)
 
+# The web app has not been deployed yet.
+
 # Upcoming Features
 
 • Creating List of Categories
@@ -59,3 +57,5 @@ The web app has not been deployed yet.
 # Author
 
 Israel Getu is a Software Engineer in Devmountain, TX.
+
+![DM](Image-each-page/originaldm.png)
