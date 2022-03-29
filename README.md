@@ -54,6 +54,8 @@ The web app has not been deployed yet.
 • Reset Password
 • Opening file from the cloud storage
 
+![Upcoming-page](Image-each-page/Road-FUTURE-Update.png)
+
 # Author
 
 Israel Getu is a Software Engineer in Devmountain, TX.
