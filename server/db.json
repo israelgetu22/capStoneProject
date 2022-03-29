@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Run, Rose, Run",
+    "author": "Dolly Parton and James Patterson",
+    "imageURL": "https://prodimage.images-bn.com/pimages/9780759554344_p0_v4_s192x300.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Library of the Dead",
+    "author": "T. L. Huchu",
+    "imageURL": "https://prodimage.images-bn.com/pimages/9781250767783_p0_v3_s192x300.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Verity",
+    "author": "Colleen Hoover",
+    "imageURL": "https://prodimage.images-bn.com/pimages/9781538724736_p0_v3_s192x300.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Million to One",
+    "author": "Tony Faggioli",
+    "imageURL": "https://www.designforwriters.com/wp-content/uploads/2017/10/design-for-writers-book-cover-tf-2-a-million-to-one.jpg"
+  },
+  {
+    "id": 5,
+    "title": "2001",
+    "author": "Arthur C.Clarke",
+    "imageURL": "https://i.pinimg.com/originals/ef/30/1b/ef301bdb3206dddc0836143bd4f0fd5d.jpg"
+  }
+]

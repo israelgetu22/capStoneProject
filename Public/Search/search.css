@@ -1,0 +1,99 @@
+body {
+  background-color: #b12020;
+  background: url(https://wallpapercave.com/wp/wp2330531.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(255, 238, 0);
+  padding: 40px;
+  font-size: 60px;
+  font-family: cursive;
+  font-weight: bold;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+header {
+  display: flex;
+  background-color: #f4a460;
+  color: #4297d0;
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 5vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+#home {
+  display: block;
+  margin: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #232323;
+  font-family: cursive;
+  text-decoration: none;
+}
+.container {
+  padding: 40px;
+  margin: 0 auto;
+  max-width: 1000px;
+  text-align: center;
+}
+
+#booksList {
+  padding-inline-start: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+
+.book {
+  list-style-type: none;
+  background-color: rgba(221, 107, 20, 0.6);
+  border-radius: 3px;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+    "name image"
+    "house image";
+  text-align: left;
+}
+
+.book > img {
+  max-height: 120px;
+  grid-area: image;
+}
+
+#searchBar {
+  width: 50%;
+  height: 32px;
+  border-radius: 3px;
+  border: 1px solid #ebf524;
+  padding: 5px 10px;
+  font-size: 15px;
+  background-color: rgba(255, 247, 0, 0.8);
+}
+#homee {
+  display: block;
+  margin: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #232323;
+  font-family: cursive;
+  text-decoration: none;
+  margin-left: 1400px;
+}

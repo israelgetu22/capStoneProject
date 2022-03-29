@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Quicksand, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.signup-form {
+  width: 60rem;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 115px;
+  transition: left 1.5s cubic-bezier(0.19, 1, 0.22, 1);
+  margin-top: -20px;
+  margin-left: 600px;
+}
+
+.container.change .signup-form {
+  left: 40rem;
+}
+
+.signup-form h1 {
+  font-size: 5rem;
+  color: #fcae07;
+  margin-top: 150px;
+  margin-bottom: px;
+}
+
+.signup-form p {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+.input-group input {
+  width: 33rem;
+  height: 5rem;
+  padding: 1rem 1rem 1rem 3rem;
+  background-color: rgb(228, 204, 106);
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.input-group i {
+  position: absolute;
+  top: 10%;
+  left: 1rem;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: #555;
+}
+
+#sign {
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: blanchedalmond;
+  color: chocolate;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 200px;
+  margin-top: 679px;
+  position: absolute;
+}
+#log {
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: blanchedalmond;
+  color: chocolate;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 150px;
+}
+
+#home1 {
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+  color: chocolate;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 1700px;
+  font-family: Arial;
+  padding: 10px;
+  text-decoration: none;
+}
+
+body {
+  border-radius: 4px;
+  margin: 0;
+  height: 100vh;
+  font-size: 18px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/5/5a/Books_HD_%288314929977%29.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+#name {
+  font-size: 35px;
+  color: rgb(255, 238, 0);
+  text-align: center;
+  font-size: 110px;
+  font-family: cursive;
+  margin-right: 100px;
+}

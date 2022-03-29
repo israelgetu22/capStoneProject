@@ -1,0 +1,141 @@
+body {
+  border-radius: 4px;
+  margin: 0;
+  height: 100vh;
+  font-size: 18px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/5/5a/Books_HD_%288314929977%29.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 95px;
+  color: rgb(255, 238, 0);
+  text-align: center;
+  font-size: 110px;
+  font-family: cursive;
+}
+
+button {
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: blanchedalmond;
+  color: chocolate;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header {
+  display: block;
+  text-align: end;
+  position: relative;
+}
+
+#books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 350px;
+  margin: 10px auto;
+}
+div {
+  width: 100%;
+  margin: 15px auto;
+}
+label {
+  display: block;
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(141, 139, 73);
+}
+input {
+  width: 96%;
+  padding: 10px;
+  border: 1px solid #797979;
+  font-size: 20px;
+  border-radius: 3px;
+  background-color: rgb(228, 204, 106);
+}
+.slider {
+  width: 300px;
+  height: 1100px;
+  background: url(https://images.squarespace-cdn.com/content/v1/5c37e73229711428af25ca91/1547753439951-FNSKKUKCF3OYGRDN5C38/BestBooks2016.jpg);
+  margin: 100px auto;
+  animation: slide 15s infinite;
+  padding-bottom: 30px;
+  margin-left: 60px;
+  margin-top: -1000px;
+  border-style: groove;
+}
+
+@keyframes slide {
+  25% {
+    background: url(https://bookgirlsguide.com/wp-content/uploads/2019/11/612BmZ6VlRpL._SX425_.jpg);
+  }
+  50% {
+    background: url(https://www.maximacenter.com/uploads/1/2/8/5/12854854/s684883404998260115_p1159_i1_w1200.jpeg);
+  }
+  75% {
+    background: url(https://149349728.v2.pressablecdn.com/wp-content/uploads/2021/11/Best-Book-Cover-Electric-Lit-2021-1.png);
+  }
+  100% {
+    background: url(https://fictiveuniverse.com/wp-content/uploads/2016/08/damonza-994x1024.png);
+  }
+}
+
+#btnHome {
+  text-align: center;
+  position: relative;
+}
+
+#home1 {
+  font-size: 25px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+  color: chocolate;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 1700px;
+  font-family: Arial;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: 35px;
+}
+
+p {
+  font-family: arial;
+  margin-top: -50px;
+  margin-left: 140px;
+  color: rgb(0, 0, 0);
+  width: 1000px;
+  margin-bottom: 120px;
+  margin-left: 150px;
+}
+footer {
+  background-color: lightgrey;
+  width: 900px;
+  border: 15px solid green;
+  padding: 40px;
+  margin-left: -300px;
+  font-size: 17px;
+  font-family: arial;
+}
+
+#create {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
