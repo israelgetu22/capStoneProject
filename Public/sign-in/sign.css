@@ -49,6 +49,7 @@ html {
   background-color: rgb(228, 204, 106);
   border: none;
   border-radius: 0.5rem;
+  font-size: 18px;
 }
 
 .input-group i {

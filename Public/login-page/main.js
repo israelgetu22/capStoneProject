@@ -53,7 +53,7 @@ login.onclick = () => {
       input[1].value == sessionStorage.getItem("password")
     ) {
       console.log("Everything is work");
-      location.assign("http://127.0.0.1:5500/public/addbook/addbook.html");
+      location.assign("http://127.0.0.1:5501/public/addbook/addbook.html");
       document.cookie = "username=" + input[0].value;
       document.cookie = "password=" + input[1].value;
     } else {
@@ -68,7 +68,6 @@ login.onclick = () => {
         setTimeout(() => {
           input[1].nextElementSibling.textContent = "";
         }, 2000);
-        // alert("Username and Password NOT match");
       }
     }
   } else {
