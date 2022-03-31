@@ -6,6 +6,10 @@ let users = [
   "Avocados are berries.",
   "'go.' is the shortest complete sentence in the english language. ",
   "The most popular name for a pet in the United States is Max.",
+  "Elephants can die of a broken heart if a mate dies. they refuse to eat and will lay down, shedding tears until they starve to death.",
+  "Starfish have no brains",
+  "Only one person in two billion will live to be 116 or older.",
+  "If you blink one eye you move over 200 muscles.",
 ];
 function getRandomNumber(min, max) {
   let step1 = max - min + 1;
